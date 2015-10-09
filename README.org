@@ -108,7 +108,7 @@ new Array(a)           => Array(a)
 
 These are all safe if the Array name isn't redefined.  JavaScript does allow
 one to globally redefine Array (and pretty much everything, in fact) but I
-personally don't see why would anyone do that.
+personally don't see why anyone would do that.
 
 UglifyJS does handle the case where Array is redefined locally, or even
 globally but with a =function= or =var= declaration.  Therefore, in the
